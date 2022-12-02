@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <data>
+
+    </data>
+
+    <androidx.constraintlayout.widget.ConstraintLayout xmlns:app="http://schemas.android.com/apk/res-auto"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/lista_pelicula"
+        android:background="@color/teal_200"
+        android:paddingStart="10dp"
+        android:layout_margin="8dp"
+        style="@style/CardView.Dark">
+
+        <TextView
+            android:id="@+id/titulo_pelicula"
+            android:layout_width="177dp"
+            android:layout_height="22dp"
+            android:layout_margin="8dp"
+            android:layout_marginEnd="16dp"
+            android:autoSizeTextType="uniform"
+            android:fontFamily="sans-serif-black"
+            android:textStyle="bold|normal"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintStart_toEndOf="@+id/image"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.34" />
+
+        <TextView
+            android:id="@+id/director"
+            android:layout_width="211dp"
+            android:layout_height="39dp"
+            android:layout_margin="8dp"
+            android:layout_marginTop="40dp"
+            android:layout_marginEnd="48dp"
+            android:padding="8dp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintStart_toEndOf="@+id/image"
+            app:layout_constraintTop_toBottomOf="@+id/titulo_pelicula"
+            app:layout_constraintVertical_bias="1.0" />
+
+        <ImageView
+            android:id="@+id/image"
+            android:layout_width="91dp"
+            android:layout_height="128dp"
+            android:layout_margin="8dp"
+            android:layout_marginStart="16dp"
+            android:maxWidth="13dp"
+            android:padding="2dp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.285"
+            android:clickable="true"
+            android:focusable="true"
+            android:contentDescription="@string/portada" />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</layout>

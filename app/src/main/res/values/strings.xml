@@ -1,0 +1,45 @@
+<resources>
+    <string name="app_name">Welcome</string>
+
+
+    <string name="movie_list">Movies List</string>
+
+    <string name="interstellar">Interstellar</string>
+    <string name="interstellar_director">Christopher Nolan</string>
+    <string name="arca_perdida">En busca del arca perdida</string>
+    <string name="arca_perdida_director">Steven Spielberg</string>
+    <string name="vida_bella">La vida es bella</string>
+    <string name="vida_bella_director">Roberto Begnini</string>
+    <string name="platoon">Platoon</string>
+    <string name="platoon_director">Oliver Stoen</string>
+    <string name="el_golpe">El golpe</string>
+    <string name="el_golpe_director">George Roy Hill</string>
+    <string name="toy_story">Toy Story</string>
+    <string name="toy_story_director">John Lasseter</string>
+
+
+    <string name="movie_detail">Movie Detail</string>
+
+    <string name="interstellar_year">2014</string>
+    <string name="ciencia_ficcion">Ciencia Ficcion</string>
+
+    <string name="arca_perdida_year">1981</string>
+    <string name="aventuras">Aventuras</string>
+
+    <string name="vida_bella_year">1997</string>
+    <string name="drama">Drama</string>
+
+    <string name="platoon_year">1986</string>
+    <string name="belica">Bélica</string>
+
+    <string name="el_golpe_year">1973</string>
+    <string name="comedia">Comedia</string>
+
+    <string name="toy_story_year">1995</string>
+    <string name="infantil">Infantil</string>
+    <string name="toWeb">toWeb</string>
+    <string name="mail">mail</string>
+    <string name="portada">portada</string>
+
+
+</resources>
